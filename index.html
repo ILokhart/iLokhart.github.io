@@ -1,46 +1,91 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Jacob's Homepage</title>
-        <style type="text/css">
-        body{
-            background-color:lightblue;
-        }
-        ul li{
-            display:inline;
-            margin-left:10px;
-        }
-        .container{
-            font-family: "Arial";
-            background-color:white;
-            margin-top:30px;
-            margin-bottom:30px;
-            margin-left:30px;
-            margin-right:30px;
-            padding:10px;
-            padding-left:15px;
-        }
-        </style>
-    </head>
-    <body>
-        <ul>
-            <li>Projects</li>
-            <li><a href="resume.html">Resume</a></li>
-            <li>About Me</li>
-        </ul>
-        
-        <div class="container">
-            <h2>Bio</h2>
-            <p>I enjoy reading technical manuals, taking short walks to the mailbox, and maintaining my beard. I have been married for seven years but I don't remember getting married.
-            I enjoy working with machines that look like people and people that work like machines. My friends and family only speak to me when they need something fixed, but I have a nice mecanical keyboard.
-            So I have that going for me... which is nice. Once you go clack, you never go back.</p>
-            <hr>
-            <p>Hello World! This is ITEC 3870</p>
-        
-            <img src="arnoldc.png" style=width:500px alt="ArnoldC alt text"/>
-        
-            <p>The greatest programming language around.</p>
-        </div>
-        
-    </body>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Assignment 2</title>
+		<style type="text/css">
+		
+			body{
+				margin:0;
+				padding:0;
+				font-family: Sans-Serif;
+				line-height: 1.5em;
+			}
+			
+			main {
+				padding-bottom: 10010px;
+				margin-bottom: -10000px;
+				float: left;
+				width: 100%;
+			}
+			
+			#nav {
+				float: left;
+				width: 230px;
+				margin-left: -100%;
+				padding-bottom: 10010px;
+				margin-bottom: -10000px;
+				background: #eee;
+			}
+			
+			#wrapper {
+				overflow: hidden;
+			}
+			
+			#content {
+				margin-left: 230px; /* Same as 'nav' width */
+			}
+			
+			.innertube{
+				margin: 15px; /* Padding for content */
+				margin-top: 0;
+			}
+			
+			p {
+				color: #555;
+			}
+	
+			nav ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+			
+			nav ul a {
+				color: darkgreen;
+				text-decoration: none;
+			}
+	
+		</style>
+	</head>
+	
+	<body>
+		<div id="wrapper">
+		
+			<main>
+				<div id="content">
+					<div class="innertube">
+						<h1>Heading</h1>
+						
+						<p>Insert text here</p>
+						
+					</div>
+				</div>
+			</main>
+			
+			<nav id="nav">
+				<div class="innertube">
+					<h3>Left heading</h3>
+					<ul>
+						<li><a href="#">Link 1</a></li>
+						<li><a href="#">Link 2</a></li>
+						<li><a href="#">Link 3</a></li>
+						<li><a href="#">Link 4</a></li>
+						<li><a href="#">Link 5</a></li>
+					</ul>
+				</div>
+			</nav>
+			
+		</div>
+	</body>
 </html>
