@@ -12,10 +12,10 @@ while newPost do
 
   puts "Enter the body of your post:"
   @postBody = gets.chomp
-
-  puts @postTitle
-  puts @postImage
-  puts @postBody
+  
+  `git add . -A`
+  `git commit -m "Added a new post to Post Space"`
+  `git push`
   
   #Prompt to make another post
   puts "Would you like to make another post? (y or n)"
